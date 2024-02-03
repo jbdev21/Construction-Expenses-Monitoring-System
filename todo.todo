@@ -1,0 +1,23 @@
+Project
+    [X] Add Project Year (column)
+    [X] Nullable Duration year, month and day
+    [X] Add Pakyaw/Subcontracts and projection - Jofie
+    [] Deliveries - Jofie
+    [X] material search - jofie
+    [] Material projection as per delivery - jofie
+
+Delivery  - Jofie
+    [X] Add Expenses upon delivery
+    [] edit/delete
+
+Expenses
+    [X] add effectivity_data
+    [] 
+
+Cashier
+    [] 
+
+
+Reports
+    [X] Daily Expenses should be one day (today is default) and no pagination and put the total below
+    [X] project-sumary only 1 year basis and remove search, also put year selection

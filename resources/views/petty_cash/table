@@ -1,0 +1,61 @@
+<table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <img class="logo-icon" src="/images/logo.png" alt="logo" style="width:50px; height:50px; padding:5px;">
+                                        <b>W O O D L A N D</b>
+                                    </td>
+                                    <td colspan="2">
+                                        <h4 class="text-center mt-3">PETTY CASH VOUCHER</h4>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <p class="mt-5">PAYEE:________________________________________________________________</p>
+                                    </td>
+                                    <td>
+                                        <p>No: {{ now()->format('mdy').'-000'.$pettyCash->id }}</p>
+                                        <p>Date: {{ now()->format('M d, Y') }}</p>
+                                    </td>
+                                </tr>
+                                <tr class="text-center thead-light">
+                                    <td colspan="2">
+                                        <b>PARTICULARS</b>
+                                    </td>
+                                    <td>
+                                        <b>AMOUNT</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <p>1 hollowblocks</p>
+                                    </td>
+                                    <td  class="text-center">
+                                        <b>P 500.00</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="text-end">
+                                        <b>TOTAL:</b>
+                                    </td>
+                                    <td  class="text-center">
+                                        <b>P 1,545.00</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <p>Approved for Payment:</p>
+                                    </td>
+                                    <td>
+                                        <p>Received Payment:</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        <small>Doc. Ref: WCSI-QF-ACC 01</small>
+                                        <small style="margin-left:25%">Revision No. 000</small>
+                                        <small style="margin-left:20%">Effetive Date: May 13, 2014</small>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
